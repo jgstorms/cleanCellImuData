@@ -12,26 +12,43 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 tBodyAcc-XYZ
+
 tGravityAcc-XYZ
+
 tBodyAccJerk-XYZ
+
 tBodyGyro-XYZ
+
 tBodyGyroJerk-XYZ
+
 tBodyAccMag
+
 tGravityAccMag
+
 tBodyAccJerkMag
+
 tBodyGyroMag
+
 tBodyGyroJerkMag
+
 fBodyAcc-XYZ
+
 fBodyAccJerk-XYZ
+
 fBodyGyro-XYZ
+
 fBodyAccMag
+
 fBodyAccJerkMag
+
 fBodyGyroMag
+
 fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
 mean(): Mean value
+
 std(): Standard deviation”
 
 The run_analysis.R script combines both the training and test data sets together into one data frame for all 30 subjects and all 6 activities. Aside from subject number and activity name, only variables that had the phrase 'mean()' and 'std()' were included in the merged data frame. The variable names were set to match those in the 'UCI HAR Dataset/features.txt' file. A complete list of the column number and variable names is shown below:
